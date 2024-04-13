@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <h1>Tax Calculator</h1>
+    </nav>
+    <!-- Tax calculation form container  -->
+    <div class="container">
+        <h1>Tax Calculator</h1>
+        <form id="taxForm">
+            <div class="form-group">
+                <label for="income">Enter gross annual income <span class="query-icon" id="queryIcon" title="gross annual income is your total salary in a year before any deductions">?</span></label>
+                <div class="input-wrapper">
+                    <input type="text" id="income" name="income" class="input-field" placeholder="Enter gross annual income">
+                    <span class="error-icon" id="incomeErrorIcon" >!</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="extraIncome">Enter extra income<span class="query-icon" id="queryIcon" title="total additional or secondary income">?</span></label>
+                <div class="input-wrapper">
+                    <input type="text" id="extraIncome" name="extraIncome" class="input-field" placeholder="Enter extra income from other sources">
+                    <span class="error-icon" id="extraIncomeErrorIcon" >!</span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="ageGroupInput">Enter age<span class="query-icon" id="queryIcon" title="your age in year">?</span></label>
+                <div class="custom-age-input">
+                    <div class="input-wrapper">
+                        <input type="number" id="ageGroupInput" name="ageGroup" class="input-field" placeholder="Enter age" min="0" step="1">
+                        <span class="error-icon" id="ageGroupErrorIcon">!</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label for="deductions">Enter total applicable deductions<span class="query-icon" id="queryIcon" title="total amount of deductions you can claim">?</span></label>
+                <div class="input-wrapper">
+                    <input type="text" id="deductions" name="deductions" class="input-field" placeholder="Add total applicable deductions">
+                    <span class="error-icon" id="deductionsErrorIcon" >!</span>
+                </div>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+
+        <!-- Modal to show the final values -->
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+                <p id="results"></p>
+                <span id="closeModal" class="close">Close</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
