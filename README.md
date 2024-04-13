@@ -20,10 +20,10 @@
 - ##### Click the "Submit" button to calculate the tax.
 - ##### View the results in the modal that appears.
 ## Images
-<img width="450" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/a09a99a2-ecd9-4ce2-a21b-ef21677d2267">
-<img width="450" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/ebc2a4e1-a6eb-440c-8e37-bc59eef00ca6">
-<img width="450" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/c2cc406e-baa1-41c8-a442-748e835d2ab1">
-<img width="450" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/fb313869-d910-499b-9830-fd68f91cb807">
+<img width="400" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/a09a99a2-ecd9-4ce2-a21b-ef21677d2267">
+<img width="400" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/ebc2a4e1-a6eb-440c-8e37-bc59eef00ca6">
+<img width="400" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/c2cc406e-baa1-41c8-a442-748e835d2ab1">
+<img width="400" height="550" alt="image" src="https://github.com/Akshi44/Tax-generator/assets/104931182/fb313869-d910-499b-9830-fd68f91cb807">
 
 
 
