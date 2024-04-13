@@ -151,3 +151,35 @@ button:hover {
     padding: 5px;
 }
 
+/* Media query */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 60%; 
+        margin-top: 20%; 
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    .modal{
+        top: 40%;
+    }
+    .modal-content {
+        min-width: 300px;
+        min-height: 200px;
+    }  
+}
+@media (max-width: 767px) {
+    .container {
+        width: 90%; 
+        margin-top: 30%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .navbar {
+        font-size: 18px; 
+    }
+    .modal-content {
+        min-width: 250px;
+        min-height: 180px;
+    }
+}
+
